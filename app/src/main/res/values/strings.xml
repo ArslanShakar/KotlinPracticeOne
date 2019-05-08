@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KotlinPracticeOne</string>
+    <string name="show_toast">Show Toast</string>
+    <string name="move_to_second_activity">Move to Second Activity</string>
+    <string name="message_not_received">Message Not Received</string>
+    <string name="implicit_intent_example">Implicit Intent Example</string>
+    <string name="show_items_in_recycler_view">Show Items in Recycler View</string>
+    <string name="message">Message</string>
+</resources>

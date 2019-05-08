@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center"
+        tools:context=".activities.MainActivity">
+
+    <Button
+            android:id="@+id/bt_show_toast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_toast"
+    />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:id="@+id/et_message"
+            android:inputType="textCapWords"
+            android:hint="@string/message"
+    />
+
+    <Button
+            android:id="@+id/bt_move_to_second_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/move_to_second_activity"
+    />
+
+    <Button
+            android:id="@+id/bt_implicit_intent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/implicit_intent_example"
+            android:layout_margin="8dp"
+    />
+
+    <Button
+            android:id="@+id/bt_show_data_in_recyclerView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show_items_in_recycler_view"
+    />
+
+</LinearLayout>
